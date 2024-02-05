@@ -1,9 +1,9 @@
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: baseline;
   height: 100vh;
-  margin: 0;
+  margin: 24px;
 }
 .board {
   background: black;
