@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.board {
+  background: black;
+  display: inline-block;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1px;
+}
+
+.square {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  background: white;
+}
